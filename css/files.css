@@ -1,0 +1,38 @@
+.fileContainer
+{
+	display: inline-block;
+
+	background: #525252;
+
+	text-align: center;
+
+	padding: 10px;
+	margin: 0px 7px 7px 0px;
+}
+
+.fileContainer:hover
+{
+	background: #424242;
+
+	cursor: pointer;
+}
+
+.fileContainerTitle
+{
+	font: bold 16px Helvetica, sans-serif;
+	color: white;
+
+	margin: 5px 0px 0px 0px;
+}
+
+.fileContainerOptions
+{
+	margin: 15px 0px 0px 0px;
+
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+.fileContainerOptions a:not(:last-child)
+{
+	margin: 0px 20px 0px 0px;
+}

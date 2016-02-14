@@ -1,0 +1,139 @@
+body
+{
+	background: url(../images/background.png) #525252;
+
+	font: normal 14px FontAwesome, 'SegoeUIRegular', 'SegoeUISemilight', 'Lato', 'LatoLight', Helvetica, Arial, sans-serif;
+}
+
+::-webkit-input-placeholder
+{
+	color: #676767;
+}
+
+:-moz-placeholder
+{
+	color: #676767;
+}
+
+::-moz-placeholder
+{
+	color: #676767;
+}
+
+:-ms-input-placeholder
+{
+	color: #676767;
+}
+
+*, *:focus
+{
+	outline: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+#wrapper
+{
+	margin: 10px 0px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.icon
+{
+	font-family: FontAwesome;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.right
+{
+	text-align: right;
+}
+
+.justify
+{
+	text-align: justify;
+}
+
+.noselect
+{
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.pageHeading
+{
+	font: bold 24px Helvetica, sans-serif;
+	color: #EBEBEB;
+
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+.basicButton
+{
+	border: 1px solid #121212;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	background: #383838; /* Old browsers */
+	background: -moz-linear-gradient(top,  #383838 0%, #272727 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#383838), color-stop(100%,#272727)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #383838 0%,#272727 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #383838 0%,#272727 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #383838 0%,#272727 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #383838 0%,#272727 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#272727',GradientType=0 ); /* IE6-9 */
+
+	font: bold 12px Helvetica, sans-serif;
+	color: lightgray;
+
+	padding: 5px 15px;
+
+	box-shadow: inset 0px 1px #4A4A4A;
+}
+
+.basicButton:hover
+{
+	cursor: pointer;
+
+	opacity: 0.8;
+}
+
+.basicButton:active
+{
+	background: #383838;
+}

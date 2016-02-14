@@ -1,0 +1,57 @@
+.popupContainer
+{
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	text-align: left;
+	font-weight: bold;
+
+	width: 550px;
+
+	padding: 5px 10px;
+}
+
+.popupSuccess
+{
+	border: 1px solid green;
+
+	background: lightgreen;
+
+	color: green;
+}
+
+.popupError
+{
+	border: 1px solid #FA605F;
+
+	background: #FFA1A2;
+
+	color: #B01213;
+
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+.popupInformation
+{
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+
+	text-align: center;
+	font-size: 25px;
+
+	padding: 7px;
+
+	text-shadow: none;
+}
+
+.popupSuccess .popupInformation
+{
+	border: 2px solid green;
+}
+
+.popupError .popupInformation
+{
+	border: 2px solid #B01213;
+}
